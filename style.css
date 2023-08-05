@@ -1,0 +1,73 @@
+body {
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 400;
+    background-color: black;
+}
+
+.navbar{
+    font-size: 26px;
+}
+
+.home-container {
+    position: relative;
+    display: flex;                /* Turns on flexbox for the container */
+    align-items: center;          /* Vertically centers child items */
+    justify-content: center;
+    padding: 130px;
+    overflow: hidden;      /* Horizontally centers child items */
+}
+
+.centered-text {
+    z-index: 1;          /* Makes sure the text is above the image */
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    filter: opacity(0.8);
+}
+
+
+.home-image {
+    height: 35vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.navbar-toggler {
+    border: none; /* Removes the border */
+    background-color: transparent; /* Ensures there's no background color */
+    padding: 5px; /* Adjust if needed */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Removes the focus outline */
+    box-shadow: none; /* Removes the focus shadow */
+}
+
+.navbar-toggler svg {
+    width: 30px; /* Adjust to your preferred width */
+    height: 30px; /* Adjust to your preferred height */
+    fill: #fff;
+}
+
+
+.music{
+    justify-content: center;
+}
+
+
+/*Content*/
+#custom-cards {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    
+}
+
+
